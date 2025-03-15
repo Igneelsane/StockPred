@@ -138,7 +138,7 @@ Karnataka-560073</span>
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://github.com/stockpred" 
+                href="https://github.com/Igneelsane/StockPred" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className={`${theme === 'dark' ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'}`}
