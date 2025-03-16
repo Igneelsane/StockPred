@@ -20,11 +20,11 @@ const AboutPage: React.FC = () => {
       github: 'https://github.com/hazin'
     },
     {
-      name: 'Jerom',
+      name: 'Jeromss',
       role: 'CHRIST University | BCA',
       bio: 'ACC Choir | Afterhours Production | Team Vizerion | University Football Team',
       image: '/images/jeroms.jpg',  // ✅ Fixed Path
-      linkedin: 'https://linkedin.com/in/jerom',
+      linkedin: 'https://www.linkedin.com/in/jeromsamuel-92a94b2ba/',
       github: 'https://github.com/jerom'
     }
   ];
