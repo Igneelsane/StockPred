@@ -8,15 +8,23 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import StockSearch from '../components/StockSearch';
 import MarketOverview from '../components/MarketOverview';
-import { Search, BarChart2, TrendingUp, LineChart, ChevronRight, Star, Users, Award, TrendingDown, ArrowRight } from 'lucide-react';
+import { BarChart2, TrendingUp, LineChart, ChevronRight, Star, Users,ArrowRight, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
+
+interface News {
+    title: string;
+    excerpt: string;
+    image: string;
+    date: string;
+    content: string;
+}
 
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
   const { theme } = useTheme();
   const [showNewsModal, setShowNewsModal] = useState(false);
-  const [selectedNews, setSelectedNews] = useState<any>(null);
+  const [selectedNews, setSelectedNews] = useState<News | null>(null);
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
