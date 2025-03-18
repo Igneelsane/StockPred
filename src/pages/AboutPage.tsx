@@ -7,7 +7,7 @@ const AboutPage: React.FC = () => {
       name: 'Rohith',
       role: 'CHRIST University | BCA',
       bio: 'ACC Choir | ACC Core | University Choir | Afterhours Production | Team Vizerion | Zendappen Acapella | Misopella Acapella',
-      image: '/images/rohith.jpg',  // ✅ Fixed Path
+      image: '/images/rohith.jpg', 
       linkedin: 'https://linkedin.com/in/rohithrockie',
       github: 'https://github.com/Igneelsane'
     },
@@ -15,7 +15,7 @@ const AboutPage: React.FC = () => {
       name: 'Hazin',
       role: 'CHRIST University | BCA',
       bio: 'Afterhours Production | Team Vizerion | DPE | Graphic Designer | Motta Kallan ',
-      image: '/images/hazin.jpeg',  // ✅ Fixed Path
+      image: '/images/hazin.jpeg',  
       linkedin: 'https://linkedin.com/in/mohammedhazin',
       github: 'https://github.com/hazin'
     },
@@ -23,7 +23,7 @@ const AboutPage: React.FC = () => {
       name: 'Jeromss',
       role: 'CHRIST University | BCA',
       bio: 'ACC Choir | Afterhours Production | Team Vizerion | University Football Team',
-      image: '/images/jeroms.jpg',  // ✅ Fixed Path
+      image: '/images/jeroms.jpg', 
       linkedin: 'https://www.linkedin.com/in/jerom-samuel-92a94b2ba/',
       github: 'https://github.com/jerom'
     }
