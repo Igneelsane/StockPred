@@ -24,7 +24,7 @@ const AboutPage: React.FC = () => {
       role: 'CHRIST University | BCA',
       bio: 'ACC Choir | Afterhours Production | Team Vizerion | University Football Team',
       image: '/images/jeroms.jpg',  // ✅ Fixed Path
-      linkedin: 'https://www.linkedin.com/in/jeromsamuel-92a94b2ba/',
+      linkedin: 'https://www.linkedin.com/in/jerom-samuel-92a94b2ba/',
       github: 'https://github.com/jerom'
     }
   ];
