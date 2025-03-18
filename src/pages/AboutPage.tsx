@@ -20,7 +20,7 @@ const AboutPage: React.FC = () => {
       github: 'https://github.com/hazin'
     },
     {
-      name: 'Jeromss',
+      name: 'Jerom',
       role: 'CHRIST University | BCA',
       bio: 'ACC Choir | Afterhours Production | Team Vizerion | University Football Team',
       image: '/images/jeroms.jpg', 
@@ -39,7 +39,7 @@ const AboutPage: React.FC = () => {
           At StockPred, we're dedicated to democratizing stock market prediction through advanced machine learning algorithms and real-time data analysis.
         </p>
         <p className="text-gray-400 mb-6">
-          Founded in December 2024, StockPred focuses on the Indian stock market, offering comprehensive analysis of NSE and BSE-listed companies.
+        StockPred was created in December 2024 by three of the best students in BCA, Rohith Rockie George, Mohammed Hazin, and Jerom Samuel. It started as a project to analyze the Indian stock market and now provides insights into NSE and BSE-listed companies to help users make informed investment decisions.
         </p>
         
         <div className="mt-8">

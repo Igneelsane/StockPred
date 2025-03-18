@@ -47,19 +47,19 @@ const HomePage: React.FC = () => {
     {
       name: "Sabari Kesav",
       role: "Rapha | Intern",
-      image: "/Sabari.jpg",
+      image: "/images/Sabari.jpg",
       content: "StockPred has helped me put my money into good use and now I don't waste it by gambling."
     },
     {
       name: "Aniruddh KA",
       role: "Rocketleg | Intern",
-      image: "/Aswin.jpg",
+      image: "/images/Aswin.jpg",
       content: "I have gotten into trading this year, have stopped putting my money on cars and now I trade every other day with the help of StockPred."
     },
     {
       name: "Aswin Thoma",
       role: "Rapha | Intern",
-      image: "/Ani.jpg",
+      image: "/images/Ani.jpg",
       content: "My name is Thomas Aswins, I have developed big interest in this after getting to use the simulation feature."
     }
   ];
