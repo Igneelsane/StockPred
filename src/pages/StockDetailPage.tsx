@@ -276,7 +276,7 @@ const StockDetailPage: React.FC = () => {
             onDaysChange={handleDaysChange}
           />
           
-          {companyOverview && (
+          {/* {companyOverview && (
             <div className={`${theme === 'dark' ? 'bg-black' : 'bg-white'} p-4 rounded-lg border ${theme === 'dark' ? 'border-gray-800' : 'border-gray-200'} shadow-md mt-6`}>
               <h3 className={`text-lg font-semibold ${theme === 'dark' ? 'text-white' : 'text-gray-900'} mb-4`}>Company Overview</h3>
               
@@ -333,7 +333,7 @@ const StockDetailPage: React.FC = () => {
                 </div>
               )}
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>
